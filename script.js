@@ -2,6 +2,9 @@
    TARN CLIM – Main script
    ================================================ */
 
+/* ── Année courante dans le footer ── */
+document.getElementById('year').textContent = new Date().getFullYear();
+
 /* ── Sticky header ── */
 const header = document.getElementById('header');
 const onScroll = () => {
